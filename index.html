@@ -1,137 +1,161 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>spin</title>
+<head>
+    <title>Main</title>  
     <style>
-    .spin:hover {
-        transform: rotate(400deg);
-    }
+        /*배경*/
+        body {
+            max-width: 1100px;
+            margin: auto;
+        }
 
-      .sq {
-        width: 100px;
-        height: 100px;
+        /*섹션*/
 
-        background-color: aquamarine;
-
-        margin: 20px;
-        transition: transform 0.5s;
-        display: inline-block;
-      }
-
-      .tr{
-        width: 0px;
-        height: 0px;
-        border-left: 50px solid transparent;/*transparent는 투명*/
-        border-right: 50px solid transparent;
-        border-bottom: 90px solid pink;
-       
-        margin: 20px;
-        transition: transform 0.5s;
-        display: inline-block;
+        section {
+            margin-top: 50px;
+            
+        }
         
-      }
+        section div {
+            border: 2px solid black; margin: auto;
+            width: 950px;
+        }
 
-    
-      .mar {
-        width: 100px;
-        height: 100px;
-        background-color: plum;
-        border-radius: 40%;
+        section div p {
+            font: arial;
+            font-size: 20px;
+        }
+
+        /*제목*/
+        .titleStyle{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-family: 'Times New Roman', serif;
+
+        }
         
-        margin: 20px;
-        transition: transform 0.5s;
-        display: inline-block;
-      }
-      
+        .txtCenter{
+            text-align: center;
+        }
+
+        .Rnav{
+            position:absolute;
+            top: 50%;
+
+            width: 220px;
+   
+            background-image: linear-gradient(to top, #ccaa77, #ddccaa, #bb9977);
+            right: 0;
+            border: solid 1px #222211;
+
+            font-family: 'Times New Roman', serif;
+        }
+
+        /*피젯 섹션*/
+        .spin:hover {
+        transform: rotate(700deg);
+        }
+
+        .spining{
+            transition: transform 0.5s;
+        }
     </style>
-  </head>
-  <body>
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
+</head>
 
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
+<body>
+    <div style="background-color: whitesmoke;">
+        <!--제목-->
+        <header>
+            <br style="margin-top: 30px;">
+            <hr style="border: solid 3px black;">
+            <h1 class="txtCenter titleStyle">The About Times</h1>
+            <hr style="border: solid 3px black;">
+        </header>
+        
+        <!--사이드바-->
+        <nav class="Rnav txtCenter" style="color: #222211;;"  >
+            
+            <b style="font-size: 15px;">
+                <hr style="border: solid 2px;">
+                <p style="font-size: 200%; margin: 0;">WANTED!</p>
+                <hr style="border: solid 2px;">
+                <p>현상수배</p>
+                <p>★DEAD OR ALIVE★</p>
+            </b>
+            <hr style="border: solid 1px;">
+            <a href="../starwars/starwars.html">
+                <img src="HanShotFirst.webp" style="width: 80%; border: solid #222211 2px;">
+            </a>
+            
+            <b style="font-size: 15px; text-align: left;">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이름: Han Solo</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;죄목: 반란 도모, 과속</p>
+                <hr style="border: solid 1px;">
+            </b>
+            <b style="font-size: 10px; text-align: left;">
 
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한솔로 또는 츄바카를 본자는</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;은하제국산하 제국 보안국 ISB으로 연락바람</p>
+            </b>
+        </nav>
 
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
+        <!--피젯-->
+        <section>
+            <div>
+                <a href="../Spin/spin.html">
+                    <img style="float: left; margin: 30px 20px 70px 30px;"
+                    src="fidget spinner.webp"
+                    width=300 px height=300 px
+                    class="spin spining"
+                    >
+                </a>
+                <h1>장난감 ‘피젯 스피너’ 열풍, 최근엔 초등학생에게도 상륙</h1>
+                <p> &nbsp;성인들 사이에서 인기를 끌던 ‘피젯 스피너’라는 장난감이 최근엔 초등학생들에게까지 유행처럼 번지고 있다.</p>
+                <p> &nbsp;‘피젯 스피너(Fidget Spinner)’란,  '바스락거리다'는 뜻을 '가진 피젯(Fidget)’이라는 단어에서도 알 수 있듯, 특별한 기능은 없지만 한 손으로 꼼지락거리거나 만지는 등의 반복 동작을 할 수 있는 손 장난감을 의미한다.</p>
+                <p> &nbsp;피젯 스피너는 손가락으로 장난감의 중앙 부분을 잡고 회전시키는 놀이인데,  회전이 빠르고 진동이 느껴져 중독성을 불러일으킨다.</p>
+            </div>
+        </section>
 
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
+        <!--광고-->
+        <section>   
+            <div>
+                <a href="../art gallery/art.html">
+                    <img src="art gallery.jpg">
+                </a>
+            </div>
+        </section>
 
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-
-    <div class="sq spin"></div>
-    <div class="tr spin"></div>
-    <div class="mar spin"></div>
-  </body>
+        <!--컬러-->
+        <section>
+            <div id = "palette">
+                <a href="../palette/palette.html">
+                    <img style="float: right; margin: 30px 30px 10px 10px; background-color: #bb2649;"
+                    src="viva.jpg"
+                    width=20%  height=20%
+                    class="color"
+                    >
+                    <script src="../palette/palette.js"></script>
+                </a>
+                <h1>&nbsp;팬톤, 2023년 올해의 색상으로 ‘비바 마젠타’ 선정</h1>
+                <p> &nbsp;미국 색채연구소인 팬톤이 2023년 올해의 색상으로 ‘비바 마젠타(Viva Magenta)’를 선정했다.</p>
+                <p> &nbsp;공식적으로 ‘비바 마젠타 팬톤 18-1750’으로 표기되며, 붉은색 계열로 심홍색과 비슷한 톤을 나타낸다.</p>
+                <p> &nbsp;따뜻함과 차가움 사이에서 균형을 이루는 색상은 오늘날처럼 변칙적인 시기에 맞는 독특한 색이며, 용감하며 두려움 없고 활기 넘치는 색상으로 낙관과 즐거움을 상징한다.</p>
+                <p> &nbsp;로리 프레스먼 팬톤 부회장은 ‘COVID-19 팬데믹이 준 불확실성을 거쳐 세계가 다시 회복하며 일어서려는 가운데 비바 마젠타는 안심, 신뢰, 연결을 나타냅니다.’라고 전했다.</p>
+            </div>
+        </section>
+        <!--에프터양-->
+        <section style="margin-bottom: 30px; padding-bottom: 40PX;">
+            <div style="height: 500px;">
+                <a href="../AfterYang/AfterYang.html">
+                    <img style="float: left; margin: 30px 30px 10px 40px;"
+                    src="A_Y.webp"
+                    width=30%  height=80%
+                    >
+                </a>
+                <h1>전주에 다시 찾아온 양</h1>
+                <h3>안드로이드의 메모리에 저장된 따스한 시선</h3>
+                <p class="text"style="white-space: pre-line;"></p><!--white-space: pre-line는 공백 인식-->
+                <script src="txt.js"></script>
+            </div>
+        </section>
+</body>
 </html>
