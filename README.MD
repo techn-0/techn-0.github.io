@@ -4,10 +4,12 @@
 
 ## **개요**  
 - **웹페이지 링크**: [https://techn-0.github.io/](https://techn-0.github.io/)  
+![image](https://github.com/user-attachments/assets/ca014ed1-3747-4386-b57a-e2b9785f0678)
 
 ### **프로젝트 설명**  
 유저와 상호작용하는 웹페이지 라이브러리.  
 콘텐츠에 따라 강조하는 내용이 다양하며, 다양한 주제를 가진 웹 페이지를 통해 인터랙티브 디자인과 웹 개발 기초를 학습.
+
 
 ---
 
@@ -30,7 +32,7 @@
 ---
 
 ## **주요 콘텐츠**
-
+![image](https://github.com/user-attachments/assets/b3d3d682-8ea7-4969-b304-513e46be9eba)
 ### **1. 메인 페이지**  
 - **콘셉트**: 인터넷 신문 스타일의 디자인  
 - **특징**:  
